@@ -1,5 +1,10 @@
 # proteus-springboot-example
 
+A simple example of integrating [Spring Boot](https://spring.io/projects/spring-boot) and [Netifi Proteus](https://www.netifi.com) to create request/reply interactions with microservices.
+
+## Bugs and Feedback
+For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/proteus-springboot-example/issues).
+
 ## License
 Copyright 2018 [Netifi Inc.](https://www.netifi.com)
 
