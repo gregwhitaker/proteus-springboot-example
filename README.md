@@ -27,7 +27,21 @@ This example requires the following prerequisites:
             $ docker run -p 8001:8001 -p 7001:7001 -e BROKER_SERVER_OPTS='-Dnetifi.authentication.0.accessKey=3006839580103245170 -Dnetifi.authentication.0.accessToken=SkOlZxqQcTboZE3fni4OVXVC0e0=' netifi/proteus
 
 ## Running the Example
+Run the following Gradle commands in separate terminals to see the example:
 
+1. Start the helloworld-service
+
+        $ ./gradlew :helloworld-service:run
+        
+2. Start the helloworld-client
+
+        $ ./gradlew :helloworld-client:run
+        
+    You will see the following in the helloworld-client terminal when successful:
+    
+        Received from helloworld-service: Hello, World!     
+
+*Note:* The order in which you run the commands does not matter as Proteus clients/services are aware of their environment and will only start sending data when their dependent services are available.
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/proteus-springboot-example/issues).
