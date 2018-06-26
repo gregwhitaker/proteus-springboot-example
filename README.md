@@ -35,11 +35,11 @@ Run the following Gradle commands in separate terminals to see the example:
         
 2. Start the helloworld-client
 
-        $ ./gradlew :helloworld-client:run
+        $ ./gradlew :helloworld-client:run -PappArgs="['Foo']"
         
     You will see the following in the helloworld-client terminal when successful:
     
-        Received from helloworld-service: Hello, World!     
+        Received from helloworld-service: Hello, Foo!     
 
 *Note:* The order in which you run the commands does not matter as Proteus clients/services are aware of their environment and will only start sending data when their dependent services are available.
 
