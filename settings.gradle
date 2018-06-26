@@ -1,0 +1,4 @@
+rootProject.name = 'proteus-springboot-example'
+include 'helloworld-client'
+include 'helloworld-idl'
+include 'helloworld-service'
