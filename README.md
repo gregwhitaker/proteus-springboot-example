@@ -4,7 +4,7 @@ A simple example of integrating [Spring Boot](https://spring.io/projects/spring-
 
 ![architectural diagram](diagram.png)
 
-# Prerequisites
+## Prerequisites
 This example requires the following prerequisites:
 
 1. Protocol Buffers Compiler
@@ -25,6 +25,9 @@ This example requires the following prerequisites:
     Start the Proteus Broker by running the following command:
     
             $ docker run -p 8001:8001 -p 7001:7001 -e BROKER_SERVER_OPTS='-Dnetifi.authentication.0.accessKey=3006839580103245170 -Dnetifi.authentication.0.accessToken=SkOlZxqQcTboZE3fni4OVXVC0e0=' netifi/proteus
+
+## Running the Example
+
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/proteus-springboot-example/issues).
