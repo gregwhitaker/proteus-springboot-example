@@ -27,6 +27,8 @@ public class DefaultHelloWorldService implements HelloWorldService {
 
     @Override
     public Mono<HelloWorldResponse> sayHello(HelloWorldRequest message, ByteBuf metadata) {
+        System.out.println("Received Hello Request for: " + message.getName());
+
         return Mono.fromSupplier(() -> HelloWorldResponse.newBuilder()
                 .setMessage(String.format("Hello, %s!", message.getName()))
                 .build());
