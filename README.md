@@ -47,7 +47,7 @@ Run the following Gradle commands in separate terminals to see the example:
 
 *Note:* The order in which you run the commands does not matter as Proteus clients/services are aware of their environment and will only start sending data when their dependent services are available.
 
-3. Now start another helloworld-service and send some more requests through. You will notice that requests are not being automatically load balanced across the instances of helloworld-service without any code or configuration change.
+3. Now start another helloworld-service and send some more requests with helloworld-client. You will notice that requests are not being automatically load balanced across the instances of helloworld-service without any code or configuration change.
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/proteus-springboot-example/issues).
